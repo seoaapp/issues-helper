@@ -1,7 +1,5 @@
 # seoa-issues-helper
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that Issues help 
-
 ## Setup
 
 ```sh
@@ -20,4 +18,4 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 ## License
 
-[ISC](LICENSE) © 2019 ttakkku <ttakkku@outlook.com> (http://seoabot.kro.kr)
+[MIT](LICENSE) © 2019 ttakkku <ttakkku@outlook.com>
