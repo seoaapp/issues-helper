@@ -1,0 +1,50 @@
+{
+  "name": "seoa-issues-helper",
+  "version": "1.0.0",
+  "description": "Issues help ",
+  "author": "ttakkku <ttakkku@outlook.com>",
+  "license": "MIT",
+  "repository": "https://github.com/issues-helper.git",
+  "homepage": "https://github.com/issues-helper",
+  "bugs": "https://github.com/issues-helper/issues",
+  "keywords": [
+    "seoaapp",
+    "seoa",
+    "github"
+  ],
+  "scripts": {
+    "dev": "nodemon",
+    "start": "probot run ./index.js",
+    "lint": "standard --fix",
+    "test": "jest && standard",
+    "test:watch": "jest --watch --notify --notifyMode=change --coverage"
+  },
+  "dependencies": {
+    "probot": "^7.2.0"
+  },
+  "devDependencies": {
+    "jest": "^24.0.0",
+    "nock": "^10.0.0",
+    "nodemon": "^1.17.2",
+    "smee-client": "^1.0.2",
+    "standard": "^12.0.1"
+  },
+  "engines": {
+    "node": ">= 8.3.0"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "nodemonConfig": {
+    "exec": "npm start",
+    "watch": [
+      ".env",
+      "."
+    ]
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
